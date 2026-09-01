@@ -1,0 +1,27 @@
+:root {
+    scrollbar-color: #6C92C1 #0F142C;
+}
+
+body{
+    background-color: #101638;
+    margin: 0;
+}
+
+h1{
+    font-family: Aclonica, sans-serif;
+}
+
+h2{
+    font-family: "Bagel FatOne", sans-serif;
+}
+
+@font-face {
+    font-family: "Aclonica";
+    src: url("./Fonts/Aclonica-Regular.ttf");
+
+}
+
+@font-face {
+    font-family: "Bagel FatOne";
+    src: url("./Fonts/BagelFatOne-Regular.ttf");
+}
