@@ -11,9 +11,6 @@ const emit = defineEmits(
       <button @click="emit('close')">Close</button>
     </div>
     <div id="mainContent">
-      <div id="left">
-        <img id="myPhoto" src="/pfpStageWaardig.jpg" alt="photo of portfolio owner">
-      </div>
       <div id="right">
         <p><span class="hai">Ha<span class="customI">i <img id="diamondDot" src="/diamondShape.png" alt=""></span></span>, I'm Vera.  I’m a webdevelopment student at Sintlucas Eindhoven, and now in my 4th year. Glancing at Fontys?Avans ICT Bachelor.
           <br> <br> I’m eager to learn and know more about webdevelopment. I want to understand and know what I’m doing. <br> <br> I tend to be a bit of a perfectionist, I want to be able to make everything in the correct/clean way. But It’s frustrating since I feel like I can’t code ‘right’ just yet.
@@ -49,7 +46,7 @@ const emit = defineEmits(
   transform: translate(-50%, -50%);
   background-color: #0F142C;
   border-radius: 20px;
-  padding: 30px;
+  padding: 40px;
   z-index: 10;
 }
 
@@ -88,14 +85,6 @@ button:hover{
 
 .icons{
   width: 55px;
-}
-
-#myPhoto{
-  width: 250px;
-  height: 350px;
-  border-radius: 30px;
-  margin-left: 30px;
-  object-fit: cover;
 }
 
 #topBar{
@@ -189,11 +178,6 @@ button:hover{
     font-size: 10px;
   }
 
-  #myPhoto{
-    width: 200px;
-    height: 300px;
-  }
-
   #bottomBar{
     padding-left: 1px;
   }
@@ -224,12 +208,6 @@ button:hover{
 
   h1{
     font-size: 15px;
-  }
-
-  #myPhoto{
-    width: 110px;
-    height: 200px;
-    margin-left: -5px;
   }
 
   #icons{
