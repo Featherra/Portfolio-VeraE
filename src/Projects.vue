@@ -24,7 +24,7 @@ const projects = [
     title: 'Portfolio website MaMaProductions',
     description: 'A completely finished website that I created for the company where I had my first internship.',
     image: '/projectMMPro.png',
-    languages: 'Vue.js, JavaScript, HTML, CSS',
+    languages: 'JavaScript, HTML, CSS',
     github: 'https://github.com/Featherra/mamaproducties-portfolio-website'
   },
   {
