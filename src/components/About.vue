@@ -14,7 +14,7 @@ const emit = defineEmits(
       <div id="right">
         <p><span class="hai">Ha<span class="customI">i <img id="diamondDot" src="/diamondShape.png" alt=""></span></span>, I'm Vera.  I’m a webdevelopment student at Sintlucas Eindhoven, and now in my 4th year. Glancing at Fontys?Avans ICT Bachelor.
           <br> <br> I’m eager to learn and know more about webdevelopment. I want to understand and know what I’m doing. <br> <br> I've only started coding when I started Sintlucas. So everything I'm able to do now, I've learned in the last 3 years.
-          <br> <br> I want to learn, grow and become confident in my field of work.
+          <br> I want to learn, grow and become confident in my field of work.
           <br> <br> I’m leaning towards becoming a front-end developer, but I would love to know more about back-end. </p>
       </div>
     </div>
